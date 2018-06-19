@@ -1,5 +1,3 @@
-function x = top_right( N,n )
-[r,c]=size(N);
-e=c-n+1;
-x=N(1:n,e:c);
+function X = top_right( N,n )
+X = N(1:n,end-n+1:end);
 end
